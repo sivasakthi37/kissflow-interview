@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+/* make our calculator in middle*/
+.Calculator {
+    width: 700px;
+    height: 534px;
+    padding: 25px;
+    border-radius: 7px;
+    background: #a62929;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+}

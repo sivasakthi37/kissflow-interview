@@ -1,0 +1,25 @@
+.Button {
+    background: #FFFF;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    height: 20%;
+    min-width: 25%;
+    font-size: 35px;
+}
+
+
+.Button:hover {
+    background: red;
+    cursor: default;
+    color: #FFFF !important
+}
+
+.equalButton{
+
+    margin-right: 154px
+}
