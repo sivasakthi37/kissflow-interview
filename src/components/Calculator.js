@@ -28,6 +28,7 @@ class Calculator extends Component {
     if(value==="equal" && this.state.data==="" ){
       return null
     }
+   
     switch (value) {
       case "clear":
         this.setState({ data: "" });
@@ -39,8 +40,11 @@ class Calculator extends Component {
         this.clearOne();
         break;
       default:
+      if(this.state.data!=="Invalid Input"){
         this.setState({ data: this.state.data + value });
-    }
+      }
+    
+  }
   };
 
   render() {
